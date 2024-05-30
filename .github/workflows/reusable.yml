@@ -11,7 +11,7 @@ on:
     #  some-secret:
     #    required: false
     outputs:
-      results:
+      result:
         description: The results of the deployment operation
         value: ${{ jobs.deploy.outputs.outcome}}        
 jobs:
